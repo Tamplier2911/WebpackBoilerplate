@@ -1,0 +1,29 @@
+$cl-font: #333;
+$cl-white: #fff;
+
+.hello-webpack-button {
+  cursor: pointer;
+  font-size: 16px;
+  color: $cl-font;
+  padding: 10px 20px;
+  background-color: $cl-white;
+  border: 1px $cl-font solid;
+  text-transform: uppercase;
+
+  transition: 0.3s all;
+
+  &:hover {
+    color: $cl-white;
+    background-color: $cl-font;
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: transparent;
+  }
+}
+
+.hello-webpack-p {
+  font-size: 20px;
+  color: $cl-font;
+}

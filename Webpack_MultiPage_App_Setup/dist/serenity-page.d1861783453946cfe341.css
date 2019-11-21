@@ -1,0 +1,16 @@
+.heading {
+  color: #333;
+  text-align: center;
+}
+
+.serenityWrapper {
+  width: 100%;
+}
+
+.serenityPresentation {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
